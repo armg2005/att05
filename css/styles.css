@@ -1,0 +1,309 @@
+
+.inicio {
+  background: url(../img/photo-1507525428034-b723cf961d3e.jpeg) no-repeat center center/cover;margin-left: 20vh;
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px; 
+  
+}
+
+.meio-conteudo {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.meioh1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  color:black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+  
+
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: start; 
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-reservar {
+  background-color: #ffffff;
+  color: #333;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a:hover,
+.meio-conteudo a:hover {
+  color: #428fd3; /* Cor ao passar o mouse */
+}
+
+
+
+.botoes {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+  flex-wrap: wrap;
+  margin-right: 20vh;
+}
+
+.botoes a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: black;
+  background-color: lightgray;
+}
+
+.botoes .contato {
+  background-color: red;
+  color: white;
+}
+.carossel {
+  margin-top: 10vh;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  max-width: 1200px;       
+  width: 100%;            
+  margin-left: auto;       
+  margin-right: auto;     
+  padding: 0 20px;         
+  box-sizing: border-box;  
+  justify-content: center;
+}
+
+
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cardPacote img {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover;
+  border-radius: 8px;
+  
+}
+
+
+.card {
+  flex: 0 0 250px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+h2{
+  text-align: center;
+}
+h3{
+  margin-bottom: 5px;
+}
+.cardPacote {
+  flex: 0 0 250px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+.rodape {
+  background-color: #80d1e6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.rodape p {
+  margin: 5px 0;
+}
+
+.redes-sociais {
+  margin-top: 10px;
+}
+
+.redes-sociais a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.redes-sociais a:hover {
+  color: #161201; /* Cor ao passar o mouse */
+}
+.meio-pagina04 {
+  min-height: calc(100vh - 200px);
+  background-image: url("../img/avioes-fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formulario {
+  background-color: rgba(255, 255, 255, 0.95); /* fundo branco com leve transparência */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+.formulario label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+.formulario input,
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+.formulario button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #428fd3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.formulario button:hover {
+  background-color: #313941;
+}
+
+.feedbacks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.feedback-card {
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+
+}
+
+.feedback-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.feedback-card h3 {
+  margin: 0;
+}
+
+.feedback-card .data {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.feedback-card .stars {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #f5b301;
+}
+
+.feedback-card .mensagem {
+  margin: 10px 0 0;
+}
+.fundo-02p {
+  background-image: url("../img/lago02-fundp.png");
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  width: 100%;
+  height: 50vh; 
+  
+  display: flex;                 
+  align-items: center;        
+  justify-content: center;     
+}
+
+
+/* RESPONSIVIDADE PARA TELAS MENORES */
+@media (max-width: 768px) {
+
+  
+  .inicio {
+    margin-left: 5vw; 
+    width: 90vw;       
+    height: auto;      
+    padding-top: 60px;
+    flex-direction: column;
+  }
+
+  
+  .meioh1 {
+    font-size: 2rem; 
+  }
+
+  
+  .botoes {
+    margin-left: 5vw;  
+    margin-right: 5vw; 
+    justify-content: flex-start; 
+  }
+
+  
+  .carossel {
+    width: 90vw;     
+    margin-left: 5vw; 
+    gap: 10px;       
+  }
+
+  
+  .card {
+    flex: 0 0 200px;
+  }
+
+ 
+  .card img {
+    height: 120px;
+  }
+}
+
+
+
