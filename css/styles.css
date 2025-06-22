@@ -261,7 +261,22 @@ h3{
   align-items: center;        
   justify-content: center;     
 }
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
 
+.video-container iframe {
+  width: 300px;
+  height: 180px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
 /* RESPONSIVIDADE PARA TELAS MENORES */
 @media (max-width: 768px) {
